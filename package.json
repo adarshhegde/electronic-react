@@ -42,7 +42,6 @@
     "electron": "^9.0.0-beta.10",
     "electron-builder": "^22.4.1",
     "nodemon": "^2.0.2",
-    "react-icons": "^3.9.0",
     "wait-on": "^4.0.1"
   }
 }

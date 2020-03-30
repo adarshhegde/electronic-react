@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Development mode with hot reload capabilities for both electron and react.
 Building is done using electron-bundler.
 
+### Run `npm install` to install all the dependencies.
+
 ## Available Scripts
 
 ### `npm start`
