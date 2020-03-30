@@ -1,0 +1,48 @@
+{
+  "name": "electronic-react",
+  "version": "0.1.0",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "description": "Electron app created using electronic-react.",
+  "license": "MIT",
+  "author": "Adarsh Hegde",
+  "dependencies": {
+    "electron-is-dev": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "build": {
+    "appId": "app.electronic.react"
+  },
+  "scripts": {
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "electron-build": "electron-builder",
+    "build": "npm run build-react && npm run electron-build",
+    "start": "concurrently \"yarn start-react\" \"wait-on http://localhost:3000 && nodemon --watch * --exec electron .\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "electron": "^9.0.0-beta.10",
+    "electron-builder": "^22.4.1",
+    "nodemon": "^2.0.2",
+    "react-icons": "^3.9.0",
+    "wait-on": "^4.0.1"
+  }
+}
