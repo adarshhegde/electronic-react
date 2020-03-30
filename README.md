@@ -1,4 +1,4 @@
-#React.js and Electron.js Boilerplate 
+## React.js and Electron.js Boilerplate 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
