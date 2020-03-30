@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Development mode with hot reload capabilities for both electron and react.
+Building is done using electron-bundler.
+
 ## Available Scripts
 
 ### `npm start`
@@ -11,4 +14,4 @@ Any changes done to electron entry file, /public/electron.js will restart the el
 
 ### `npm build`
 
-Creates a windows build of the app in /dist folder.
+Creates a windows build of the app in /dist folder using electron-bundler.
